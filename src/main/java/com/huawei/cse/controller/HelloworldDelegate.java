@@ -9,6 +9,6 @@ public class HelloworldDelegate {
     public String helloworld(String name){
 
         // Do Some Magic Here!
-        return name;
+        return "hi, " + name;
     }
 }
