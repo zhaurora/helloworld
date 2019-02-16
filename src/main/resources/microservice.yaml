@@ -1,7 +1,7 @@
 APPLICATION_ID: springmvc
 service_description:
   name: helloworld
-  version: 0.0.1
+  version: 1.0
   properties:
     allowCrossApp: false
 cse:
@@ -19,7 +19,7 @@ cse:
     #client:
       #serverUri: https://cse.cn-north-1.myhuaweicloud.com
   rest:
-    address: 0.0.0.0:8080
+    address: 0.0.0.0:8081
   #When a local project is deployed as a container outside a cluster, you need to delete all monitor and credentials comments and configure the AK/SK.
   #credentials:
     #accessKey: ak
